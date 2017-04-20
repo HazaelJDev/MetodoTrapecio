@@ -11,7 +11,7 @@ var mtrapecio = function(){
   Xi[0] = a;
   i=1;
   do{
-    if((Xi[i-1]+ h)>2){
+    if((Xi[i-1]+ h)>b){
       Xi[i-1] = b;
     }else{
       Xi[i] = parseFloat(Xi[i-1] + h);
