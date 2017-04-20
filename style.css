@@ -1,0 +1,242 @@
+body{
+  background: url("fondo.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  margin: auto;
+  position: relative;
+  width: 500px;
+  height: 40px;
+  background: #00acc1;
+  top: 25px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+#Integral{
+  opacity: 0.7;
+  margin: auto;
+  position: relative;
+  width: 500px;
+  height: 100px;
+  background: #00acc1;
+  top: 30px;
+}
+div#integralSym{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  display: inline;
+}
+p#inte{
+  font-size: 80px;
+  font-family: sans-serif;
+  font-style: normal;
+  display: inline;
+  margin-left:167px;
+}
+#CB{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  display: inline-block;
+  margin-left:10px;
+  margin-top: 4px;
+  position: absolute;
+}
+#CA{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  display: inline-block;
+  margin-left:8px;
+  margin-top: 75px;
+  position: absolute;
+}
+
+#funci{
+  margin-left: 200px;
+  display: inline;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+}
+#num{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  display: inline-block;
+  margin-left: 61px;
+  margin-top: 25px;
+  position: absolute;
+}
+#linea{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+  position: absolute;
+}
+#deno{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  display: inline-block;
+  margin-left: 33px;
+  margin-top: 55px;
+  position: absolute;
+}
+#dx{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  display: inline-block;
+  margin-left: 118px;
+  margin-top: 39px;
+  position: absolute;
+}
+form#form{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: normal;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  background: #00acc1;
+  width: 500px;
+  height: 200px;
+  top: 35px;
+  display: block;
+  opacity: 0.7;
+}
+#f1{
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 3px;
+}
+#f2{
+  position: relative;
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 50px;
+}
+#f3{
+  position: relative;
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+}
+#f4{
+  position: relative;
+  width: 500px;
+  height: 50px;
+  display: inline;
+  margin-top: 0px;
+}
+#nParticiones, #CotaInicial, #CotaFinal{
+  height: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+#calcular{
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  margin-left: 10px;
+}
+#limpiar{
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  float: right;
+  margin-right: 10px;
+}
+
+#Datos{
+  font-family: sans-serif;
+  font-style: normal;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  background: #00acc1;
+  width: 500px;
+  height: 500px;
+  top: 30px;
+  display: block;
+  opacity: 0.7;
+}
+
+#Datos h2{
+  margin-top: 20px;
+}
+
+#Tab{
+  text-align: center;
+  margin: auto;
+}
+
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 12px;
+  /*margin: 45px;*/
+  width: 480px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#Tit td{
+  font-size: 13px;
+  font-weight: normal;
+  padding: 8px;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+  }
+
+td {
+  padding: 8px;
+  background: #e8edff;
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid transparent;
+}
+
+tr:hover td {
+  background: #d0dafd;
+  color: #339;
+}
+
+#formula td{
+  font-size: 13px;
+  font-weight: normal;
+  padding: 8px;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+}
+
+#Atot{
+  margin-top: 20px;
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 8px;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+}

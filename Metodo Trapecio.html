@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Metodo Trapecio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="mtrapecio.js"></script>
+  <!--Autor: Jesus Hazael Jimenez Barrera TNM - ITCuautla -->
+</head>
+<body>
+  <header><h1>Método Trapecio</h1></header>
+  <div id="Integral">
+    <div id="integralSym">
+      <p id="inte">&#643;</p>
+      <div id="CA"></div>
+      <div id="CB"></div>
+    </div>
+    <div id="funci">
+      <div id="num">2</div>
+      <div id="linea">_______</div>
+      <div id="deno">x^2 + 4</div>
+      <div id="dx">dx</div>
+    </div>
+  </div>
+  <form id="form">
+      <div id="f1">
+        Particiones:
+        <input type="number" name="nParticiones" id="nParticiones" min="1">
+      </div>
+      <div id="f2">
+        Cota inicial:
+        <input type="number" name="CotaInicial" id="CotaInicial" onkeyup="enviarA()">
+      </div>
+      <div id="f3">
+        Cota final:<input type="number" name="CotaFinal" id="CotaFinal" onkeyup="enviarB()">
+      </div>
+      <div id="f4">
+        <input type="button" name="calcular" id="calcular" value="Calcular" onclick="mtrapecio()">
+        <input type="button" name="limpiar" id="limpiar" value="Limpiar" onclick="clean()">
+      </div>
+    </form>
+</body>
+</html>
